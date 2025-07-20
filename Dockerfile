@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM redhat/ubi8
 
 RUN yum install python3 -y &&  pip install flask
 
